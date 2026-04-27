@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TaskbarClock;
 
-namespace day20_綜合實作_
+namespace 馬達邏輯加上sqlite
 {
     public enum MotorState { Idle, Moving, Homing, Error }
     public class Motor
@@ -32,7 +32,6 @@ namespace day20_綜合實作_
             Accel = accel;
             Time = time;
             CurrentPos = currentPos;
-
         }
 
         public void Moving()
